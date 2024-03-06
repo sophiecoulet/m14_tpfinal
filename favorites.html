@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kavoon&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    <title>TP final Sophie</title>
+  </head>
+  <body>
+
+    <header>
+      <div class="logo">
+        <i class="fa-solid fa-bars"></i>
+        <span>Robots</span><span class="rose">Friends</span>
+      </div>
+      <div class="compte">
+        <img src="https://robohash.org/joe.png?set=set4">
+        <div class="coord">
+          <p>Joseph Joe</p>
+          <p>josephjoe@gmail.com</p>
+        </div>
+      </div>
+    </header>
+    
+    <main>
+      <div class="sideBar">
+        <div>
+          <p class="cat">MENU</p>
+          <a href="./index.html"><p class="menu-home"><i class="fa-solid fa-house"></i> Home</p></a>
+          <a href=""><p class="rose"><i class="fa-solid fa-house"></i> Favorites</p></a>
+          <p class="cat">SETTINGS</p>
+          <a href=""><p><i class="fa-solid fa-circle-user"></i> My account</p></a>
+          <a href=""><p><i class="fa-solid fa-paintbrush"></i> Preferences</p></a>  
+        </div>
+        <div class="footer">
+          <div class="logo">
+            <span>Robots</span><span class="rose">Friends</span>
+          </div>
+          <p>v1.0 - July 2023</p>
+        </div>
+      </div>
+
+      <div>
+        <div class="searchBar">
+          <h2>My Favorites Friends</h2>
+          <input type="text" name="" id="search" placeholder="Search a friend">
+        </div>
+        <div id="bloc-users"></div>
+      </div>
+    </main>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.6.7/axios.min.js"
+      integrity="sha512-NQfB/bDaB8kaSXF8E77JjhHG5PM6XVRxvHzkZiwl3ddWCEPBa23T76MuWSwAJdMGJnmQqM0VeY9kFszsrBEFrQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"></script>
+    <script src="favorites.js"></script>
+  </body>
+</html>
+

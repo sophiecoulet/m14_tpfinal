@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/3ed019222a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="details.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <!-- Menu de navigation -->
+    <header>
+        <div class="logo">
+          <i class="fa-solid fa-bars"></i>
+          <span>Robots</span><span class="rose">Friends</span>
+        </div>
+        <div class="compte">
+          <img src="https://robohash.org/joe.png?set=set4">
+          <div class="coord">
+            <p>Joseph Joe</p>
+            <p>josephjoe@gmail.com</p>
+          </div>
+        </div>
+      </header>
+ 
+    <div class="retour"><i class="fa-solid fa-arrow-left"></i></div>
+ 
+    <div class="global">
+    <!-- Image de profil et détails -->
+    <div class="detailGlobal">
+        <div class="infoProfil">
+            <div class="nav-gauche"> <!-- Ajout de la classe nav-gauche -->
+                <img id="photoProfil" src="" alt="Image de Profil">
+            </div>
+            <div class="details">
+                <div class="info">
+                    <h1 id="user-name"></h1>
+                    <h2 id="user-email">Email: </h2>
+                    <h2 id="user-phone">Téléphone: </h2>
+                </div>
+                <button class="favoriteBtn" id=""><i class="fa-solid fa-heart"></i> Make Favorite</button> <!-- Ajout du bouton -->
+            </div>
+        </div>
+ 
+        <div class="detailsPlus">
+            <p>More Details</p>
+            <hr>
+            <p>Adress</p>
+            <div class="street">
+                <p id="rue"><strong>Street: </strong><br></p>
+                <p id="Appartement"><strong>Suite: </strong><br></p>
+                <p id="ville"><strong>City:</strong> <br></p>
+                <br>
+            </div>
+            <p style="margin-top: 20px;">Company</p>
+            <p id="user-company"><strong>Name: </strong></p>
+        </div>
+    </div>
+</div>
+ 
+ 
+    
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.6.7/axios.min.js"
+  integrity="sha512-NQfB/bDaB8kaSXF8E77JjhHG5PM6XVRxvHzkZiwl3ddWCEPBa23T76MuWSwAJdMGJnmQqM0VeY9kFszsrBEFrQ=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"></script>
+<script src="details.js"></script>
+</body>
+</html>
